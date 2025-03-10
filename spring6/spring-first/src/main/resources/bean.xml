@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--在配置文件中完成对象的创建  bean标签  id=唯一标识  class=类的全路径-->
+    <bean id="user" class="com.atguigu.spring6.User"></bean>
+
+</beans>
